@@ -1,4 +1,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+  - instances/cp4i-apic-ibm-platform-navigator-instance.yaml
   - operators/openshift-operators-ibm-platform-navigator.yaml
